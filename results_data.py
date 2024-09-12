@@ -3,6 +3,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 import re
+import os
 
 #change pd options to see a whole DataFrame
 pd.set_option('display.max_columns', None)
